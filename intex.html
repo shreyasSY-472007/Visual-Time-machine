@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Stack Visualizer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+Stack Visualizer
+</div>
+
+<div class="panel">
+
+<input type="text" id="word" placeholder="Enter Data">
+
+<button onclick="pushWord()">Push</button>
+<button onclick="undo()">Undo</button>
+<button onclick="redo()">Redo</button>
+<button onclick="clearStacks()">Clear</button>
+
+</div>
+
+<div class="container">
+
+<div class="stackBox">
+<h2>Stack A</h2>
+<div id="stackA" class="stack"></div>
+</div>
+
+<div class="stackBox">
+<h2>Stack B</h2>
+<div id="stackB" class="stack"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
