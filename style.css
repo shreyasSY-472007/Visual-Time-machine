@@ -1,0 +1,113 @@
+body{
+
+margin:0;
+font-family:Arial;
+color:white;
+text-align:center;
+
+/* modern gradient */
+
+background: linear-gradient(120deg,#141e30,#243b55);
+
+/* grid */
+
+background-image:
+linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+linear-gradient(90deg,rgba(255,255,255,0.05) 1px, transparent 1px);
+
+background-size:40px 40px;
+
+}
+
+/* navbar */
+
+.navbar{
+
+background:rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+padding:15px;
+font-size:22px;
+font-weight:bold;
+
+}
+
+/* panel */
+
+.panel{
+
+margin-top:40px;
+
+}
+
+input{
+
+padding:10px;
+border:none;
+border-radius:6px;
+width:200px;
+margin-right:10px;
+
+}
+
+button{
+
+padding:10px 15px;
+border:none;
+border-radius:6px;
+background:#4facfe;
+color:white;
+cursor:pointer;
+margin:5px;
+
+}
+
+button:hover{
+
+background:#00c6ff;
+
+}
+
+/* layout */
+
+.container{
+
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:40px;
+
+}
+
+/* glass cards */
+
+.stackBox{
+
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(15px);
+padding:20px;
+border-radius:10px;
+width:220px;
+
+/* neon border */
+
+box-shadow:0 0 10px #4facfe;
+
+}
+
+.stack{
+
+display:flex;
+flex-direction:column-reverse;
+align-items:center;
+
+}
+
+.block{
+
+background:#4facfe;
+padding:10px;
+margin:5px;
+border-radius:5px;
+width:80%;
+
+}
